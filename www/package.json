@@ -1,0 +1,30 @@
+{
+  "name": "itaesbra",
+  "version": "1.0.0",
+  "description": "nenhuma",
+  "author": "Fabio",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.19",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.2.12",
+    "browser-sync": "^2.24.4",
+    "browserify": "^14.4.0",
+    "connect-modrewrite": "^0.10.2",
+    "request": "^2.82.0",
+    "uglifyjs": "^2.4.11"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
