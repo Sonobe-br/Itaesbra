@@ -1,0 +1,12 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^florestacomunicacao.com/clientes/itaesbra/apres2 [NC]
+RewriteRule ^(.*)$ http://florestacomunicacao.com/clientes/itaesbra/apres2/$1 [R=301,NC]
+RewriteRule ^index.html$ http://florestacomunicacao.com/clientes/itaesbra/apres2/ [R=301,L]
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^itaesbra\.com.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.itaesbra\.com.br$
+RewriteRule .* https://www.itaesbra.com.br%{REQUEST_URI} [R=301,L]
